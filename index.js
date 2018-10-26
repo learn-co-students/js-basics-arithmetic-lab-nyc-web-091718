@@ -1,3 +1,14 @@
+const newID = 1000000000 + oldID;
+
+
+
+const ageIsValid = Number.isInteger(currentAge);
+
+const randomNumber = Math.floor(Math.random() * Math.floor(20));
+
+const randomInteger = Math.floor(randomNumber);
+
+const randomUserID = Math.floor(Math.random() * Math.floor(20)) + 1000000001;
 /*
 Variables defined in the test suite:
 - oldID
