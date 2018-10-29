@@ -1,9 +1,9 @@
-/*
-Variables defined in the test suite:
-- oldID
-- currentAge
+newID = 1000000000 + oldID
 
-You should NOT try to redefine any of the above variables.
-*/
+ageIsValid = Number.isInteger(currentAge)
 
-// Write your code below this line!
+randomNumber = Math.random() * 20
+
+randomInteger = Math.floor(randomNumber)
+
+randomUserID = 1000000000 + randomInteger + 1
